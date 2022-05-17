@@ -13,7 +13,7 @@ datagroup: ecommerce_etl {
 
 persist_with: ecommerce_etl
 ############ Base Explores #############
-
+label: "Z) Sample Ecommerce Data"
 explore: order_items {
   label: "(1) Orders, Items and Users"
   view_name: order_items
